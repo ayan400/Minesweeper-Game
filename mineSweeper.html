@@ -1,0 +1,12 @@
+<script defer src='./mineSweeper.js'></script>
+<link rel="stylesheet" href="mineSweeper.css">
+<h1>Minesweeper</h1>
+<div>Select Level</div>
+<select  id="mineSweeperLevels"onchange="getSelectedLevelValue()">
+    <option value="Beginner">Beginner</option>
+    <option value="Intermediate">Intermediate</option>
+    <option value="Expert">Expert</option>
+  </select>
+<table id="mineSweeperGrid">
+</table>
+<button onclick="generateMineSweeperGrid()">Reset Minesweeper Grid</button>
